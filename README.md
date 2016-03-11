@@ -1,3 +1,5 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/6e6f386c74e04bb3bb48575ccce6b480)](https://www.codacy.com/app/eminetto/orcamentos)
+
 #Aplicativo de gerenciamento de Orçamentos
 
 ### Configure o Apache VirtualHost
@@ -29,7 +31,7 @@ Para criação de um virtual host no **Windows**, siga as instruções encontrad
 
 Clonar o projeto:
 
-Através da linha de comando, acessar sua pasta de projetos e clonar com `git clone git@github.com:Coderockr/orcamentos.git <nome da pasta do projeto>`
+Através da linha de comando, acessar sua pasta de projetos e clonar com `git clone https://github.com/Coderockr/orcamentos.git <nome da pasta do projeto>`
 
 Acessar a pasta criada `cd <nome da pasta do projeto>` e atualizar o Composer fornecido:
 
@@ -38,6 +40,8 @@ Acessar a pasta criada `cd <nome da pasta do projeto>` e atualizar o Composer fo
 Instalar as dependências do projeto:
 
 `php composer.phar update`
+
+O projeto também necessita da extensão intl do PHP para trabalhar com datas. 
 
 ### Configuração
 
